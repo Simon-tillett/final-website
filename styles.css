@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+}
+
+header {
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+}
+
+img.small {
+  width: 200px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
